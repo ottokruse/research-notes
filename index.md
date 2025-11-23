@@ -1,5 +1,6 @@
 ---
 title: Research Notes
+layout: home
 ---
 
 # Research Notes Scratchpad

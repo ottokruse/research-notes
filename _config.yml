@@ -1,5 +1,7 @@
 title: Research Notes
 description: Research scratchpad and findings
+baseurl: "/research-notes"
+url: "https://ottokruse.github.io"
 theme: minima
 
 plugins:
@@ -8,3 +10,15 @@ plugins:
 
 minima:
   skin: auto
+
+# Default layouts for content
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
