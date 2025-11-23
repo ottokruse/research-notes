@@ -1,9 +1,10 @@
 title: Research Notes
 description: Research scratchpad and findings
-remote_theme: jekyll/minima@v3.0.0
+theme: minima
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
   skin: auto
